@@ -1,0 +1,29 @@
+{
+  "name": "langfuse-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx --env-file=.env",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@langfuse/otel": "^5.11.1",
+    "@langfuse/tracing": "^5.11.1",
+    "@opentelemetry/sdk-node": "^0.222.0",
+    "openai": "^7.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "prettier": "3.9.9",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}

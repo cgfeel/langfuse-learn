@@ -1,0 +1,30 @@
+{
+  // 总开关：关闭 VS Code 内置的 AI / Copilot 功能（1.104+ 的核心设置）
+  "chat.disableAIFeatures": false,
+
+  // 内联补全
+  "github.copilot.enable": {
+    "*": false
+  },
+  "editor.inlineSuggest.enabled": false,
+
+  // Copilot 编辑器内的代码动作 / 重命名建议
+  "github.copilot.editor.enableCodeActions": false,
+  "github.copilot.renameSuggestions.triggerAutomatically": false,
+
+  // Copilot Chat 的各类入口
+  "github.copilot.chat.copilotDebugCommand.enabled": false,
+  "github.copilot.chat.reviewSelection.enabled": false,
+  "github.copilot.chat.setupTests.enabled": false,
+  "github.copilot.chat.useProjectTemplates": false,
+
+  // formater
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true
+}
